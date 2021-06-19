@@ -1,28 +1,30 @@
 {
   "expo": {
-    "name": "pick-native",
-    "slug": "pick-native",
-    "version": "1.0.0",
+    "name": "pick",
+    "slug": "pick",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.jonstuebe.pick",
+      "buildNumber": "0.1.0",
+      "supportsTablet": false
     },
     "android": {
+      "package": "com.jonstuebe.pick",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#000000"
       }
     },
     "web": {
