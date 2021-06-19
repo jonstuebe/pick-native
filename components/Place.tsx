@@ -31,9 +31,9 @@ export default function Place({ label, brandColor, url }: PlaceProps) {
       }}
       style={{
         backgroundColor: brandColor,
-        paddingHorizontal: 16,
-        paddingTop: 32,
-        paddingBottom: 16,
+        paddingHorizontal: 12,
+        paddingBottom: 12,
+        paddingTop: 40,
       }}
     >
       <Text
@@ -41,6 +41,7 @@ export default function Place({ label, brandColor, url }: PlaceProps) {
           iOSUIKit.title3EmphasizedWhite,
           {
             textAlign: "left",
+            fontSize: 24,
           },
         ]}
       >

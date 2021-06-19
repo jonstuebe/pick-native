@@ -195,7 +195,7 @@ function Category() {
           alignItems: "center",
         }}
       >
-        <Text style={[iOSUIKit.bodyWhite, { marginRight: 4 }]}>
+        <Text style={[iOSUIKit.bodyEmphasizedWhite, { marginRight: 4 }]}>
           {type === "fastfood" ? "Fast Food" : "Restaurant"}
         </Text>
         <Ionicons name="swap-horizontal-outline" color="white" size={24} />

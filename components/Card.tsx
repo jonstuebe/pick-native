@@ -58,12 +58,14 @@ export default function Card({
         >
           <Text
             style={[
+              iOSUIKit.title3EmphasizedWhite,
               {
                 position: "absolute",
-                bottom: 16,
-                left: 16,
+                bottom: 12,
+                left: 12,
+                fontSize: 24,
+                lineHeight: 24,
               },
-              iOSUIKit.title3EmphasizedWhite,
             ]}
           >
             {label}
